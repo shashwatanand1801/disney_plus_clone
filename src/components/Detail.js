@@ -27,10 +27,12 @@ function Detail() {
             </GroupWatchButton>
             </Controls>
             <SubTitle>
-                2018 SubTitle
+                2018 • 7m • Family, Fantasy, Kids, Animation
             </SubTitle>
             <Description>
-                Description
+                A Chinese mom who's sad when her grown son leaves home gets another 
+                chance at motherhood when one of her dumplings to life. 
+                But she finds that nothing stays cute and small forever.
             </Description>
         
         </Container>
@@ -67,6 +69,7 @@ const ImageTitle = styled.div `
     min-height: 170px;
     width: 35vw;
     min-width: 200px;
+    margin-top: 60px;
 
     img{
         width: 100%;
@@ -133,4 +136,5 @@ const Description = styled.div `
     font-size: 20px;
     margin-top: 16ox;
     color: rbg(249, 249, 249);
+    max-width: 760px;
 `
